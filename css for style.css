@@ -1,0 +1,126 @@
+body {
+   background-image: url("dbz.jpg");
+   background-attachment: fixed;
+   background-position: right;
+}
+h1 {
+  color: blue;
+  text-align: center;
+  font-family: sans-serif;
+}
+p {
+  color: yellow;
+  text-align: center;
+  font-size: 20px;
+  font-family:serif;
+}
+
+div {
+  background-color: rgb(105, 255, 105);
+}
+
+div.first {
+
+  color: greenyellow;
+  opacity: 0.1;
+}
+
+#margin {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  background-color: rgb(42, 165, 165);
+}
+
+#HW {
+  height: 100px;
+  width: 50%;
+  background-color: chartreuse;
+}
+
+p {outline-color:blue; outline-color: blueviolet; outline-width: thick;}
+
+p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;}
+p.solid {outline-style: solid;}
+p.double {outline-style: double;}
+p.groove {outline-style: groove;}
+p.ridge {outline-style: ridge;}
+p.inset {outline-style: inset;}
+p.outset {outline-style: outset;}
+
+
+p.mine {
+  margin: 30px;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 15px;
+}
+
+
+p.uppercase {
+  text-transform: uppercase;
+}
+
+p.lowercase {
+  text-transform: lowercase;
+}
+
+p.capitalize {
+  text-transform: capitalize;
+}
+
+p.indent {
+  text-indent: 50px;
+}
+
+P.spacing {
+  letter-spacing: 20px;
+}
+
+p.wordspacing {
+  word-spacing: 50px;
+}
+
+
+h1.shadow {
+  text-shadow: 2px 2px red;
+}
+
+
+a:link, a:visited {
+  background-color:cyan;
+  color: violet;
+  border: 2px solid yellowgreen;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color:blue;
+  color: palevioletred;
+}
+
+
+ul.a {
+  list-style-type: circle;
+  color: blue;
+}
+
+ul.b {
+  list-style-type: square;
+  color: burlywood;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+  color:  cyan;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+  color: yellow;
+}
