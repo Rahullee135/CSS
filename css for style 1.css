@@ -1,3 +1,256 @@
-div.new {
-    background-color: crimson;
+
+ body {
+    /* background-color:lightblue; */
+    background-image: url("img2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-attachment: scroll; */
+    background-position: bottom;
+    
+} 
+
+/* CIRAP
+ body {
+    background: cornsilk  url("img2.jpg")  no-repeat  fixed bottom;
+} */
+
+
+h1.COLORS {
+    background-color: cyan;
+}
+
+h1.RGB {
+    background-color: rgba(43, 255, 0, 0.589);
+}
+
+h1.HEX {
+    background-color: #ffff00;
+}
+
+h1.HSL {
+    background-color: hsl(0, 25%, 30%);
+}
+
+p.normal {
+    background-color: cyan;
+    border: 2px solid red;
+    padding: 5px;
+  }
+  
+  p.round1 {
+    background-color: cyan;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  p.round2 {
+    background-color: cyan;
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 5px;
+  }
+  
+  p.round3 {
+    background-color: cyan;
+    border: 2px solid red;
+    border-radius: 12px;
+    padding: 5px;
+  }
+
+  .margin {
+     background-color: cyan;
+     border: 1px solid greenyellow;
+     border-radius: 12px ;
+     padding: 5px;
+     margin-top: 100px;
+     margin-bottom: 100px;
+     margin-left: 80px;
+     margin-right: 50px;
+  }
+
+
+  /*trbl
+  .margin {
+      margin: 100px 50px 100px 80px;
+  }
+  */
+  
+  .padding {
+      background-color: cyan;
+      border: 1px salmon;
+      padding-top: 50px;
+      padding-right: 30px;
+      padding-bottom: 50px;
+      padding-left: 80px;
+  }
+
+  /* .padding{
+      background-color: darkorange;
+      border: darkturquoise;
+      padding: 50px 30px;
+  } */
+
+  .HW {
+      background-color: deeppink;
+      border: dodgerblue;
+      height: 100px;
+      width: 200px;
+
+  }
+
+  .boxmodel {
+      background-color: dodgerblue;
+      width: 300px;
+      border: 20px double brown;
+      padding: 50px;
+      margin: 20px;
+  }
+
+  .boxmodel1 {
+    background-color: dodgerblue;
+    width: 300px;
+    border: 20px;
+    outline-color:blueviolet;
+    outline-style: double;
+    outline-width: thick;
+    padding: 50px;
+    margin: 20px;
+}
+
+/* 
+outline -- WSC
+*/
+
+.outline {
+    background-color: cornsilk;
+    outline: thick double cornflowerblue;
+    outline-offset: 4px;
+}
+
+h2 {
+    color: darkorange;
+    text-align: center;
+}
+
+.text {
+    border: dotted salmon;
+    color: deeppink;
+    text-align: justify;
+    direction:rtl;
+    unicode-bidi: bidi-override;
+}
+
+p {
+    background-color: cyan;
+}
+
+.a {
+    text-align: center;
+    vertical-align: super;
+}
+
+.transform {
+    text-transform: uppercase;
+}
+
+.shadow {
+    text-shadow: 2px 2px red ;
+}
+
+.span {
+    background-color: cyan;
+}
+
+
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+    background-color: cyan;
+  } 
+  
+  div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+    background-color: cyan;
+  }
+
+  p.img {
+      background-color: cyan;
+      width: 170px; 
+      height: 170px;
+      margin-left: 15px;
+      float: left;
+  }
+
+  .center {
+    background-color: cyan;
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+
+  /* .img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+  } */
+
+
+  .center1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid green; 
+  }
+
+img {
+    width: 170px;
+    height: 100px;
+    opacity:0.5;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+
+.first.second.third.img:hover {
+    opacity: 0.5;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.selected) {
+  background-color: #111;
+}
+
+.selected {
+  background-color: #04AA6D;
 }
